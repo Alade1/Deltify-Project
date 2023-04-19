@@ -1,0 +1,894 @@
+*{
+   
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+span, h6{ 
+    color: #FDC221;
+}
+.row {
+    margin: 0 !important;
+}
+
+
+.logo{
+    padding-left: 6rem;
+    font-size: 30px;
+    font-weight: bolder;
+}
+header{
+    background-image: url("Banner.png");
+    background-color: #0F124D;
+    height: 450px;
+
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #0F124D;
+    height: 100px;
+}
+li{
+    list-style-type: none;
+}
+.nav-item{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    padding-right: 7rem;
+    font-size: 13px;
+}
+.say{
+     color: #FDC221;
+     padding-right: 70px;
+     font-size: 17px;
+}
+
+/*header second part*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.asset2{
+    height: 350px;
+    width: 400px;
+    padding-right: 30px;
+}
+.container1{
+    padding-right: 15rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-bottom: 5rem;
+
+}
+
+i{
+    margin-right: 10px;
+    color:#F79E0E
+}
+.loremCheck{
+    display: flex; 
+    padding-top: 20px; 
+    font-size: 12px;
+   
+    
+}
+.lorem1{
+    padding-right: 80px;
+    
+}
+.btn-1{
+   padding-top: 40px;
+}
+#btn{
+    background-color: #F79E0E;
+    color:white;
+    height: 30px;
+    width: 150px;
+    border:none;
+    border-radius: 20px;
+
+}
+.btn-2{
+    padding-top: 40px;
+ }
+ .btn-3{
+    padding-top: 20px;
+ }
+ #btn3{
+    background-color: #F79E0E;
+    color:white;
+    height: 30px;
+    width: 150px;
+    border:none;
+    border-radius: 5px;
+ }
+#btn2{
+    background-color: #F79E0E;
+    color:white;
+    height: 30px;
+    width: 100px;
+    border:none;
+    border-radius: 5px;
+}
+
+.lorem1, p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+}
+.lorem2, p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+}
+    
+h1{
+    padding-bottom: 5px;
+}
+.mainSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+.asset3{
+    height: 300px;
+}
+h6, h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+}
+h2{
+    padding-top:10px;
+}
+
+.asset4{
+    height:500px;
+   
+}
+#paymentImage{
+    text-align: center;
+    padding-top: 80px;
+}
+#amount{
+    font-size: 25px;
+    font-weight: bold; 
+    padding-right: 5px;
+}
+#sales{
+    font-family: 'Nunito Sans', sans-serif;
+}
+#unverified{
+    font-size: 12px;
+    color:black;
+    text-decoration: line-through;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    background: rgba(245, 246, 251, 0.5);
+    padding-bottom: 30px;
+}
+.asset5{
+    height:250px;
+}
+#white{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.noteicon{
+    width: 15px;
+    height: 20px;
+}
+#notaryicon{
+    padding-top:10px;
+}
+.noteicon2{
+    width: 15px;
+    height: 20px;
+}
+#notaryico{
+    padding-top:15px;
+}
+#worth{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+#sitecontent{
+    color: #F79E0E;
+    font-weight: bold;
+
+}
+#satisfy{
+    padding-top: 6px;
+}
+.container6{
+    text-align: center;
+    padding-top: 40px;
+}
+.container7{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+.topimage, .bottomimage{
+    height:80px;
+}
+.portfolio{
+    text-align: center;
+  
+    padding-top: 40px;
+}
+#advert{
+    padding-top: 25px;
+}
+#one{
+    color: #F79E0E;
+  font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #F79E0E;
+
+}
+#two{
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #000;
+    
+}
+#three{
+    color: #F79E0E;
+  font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+.portfolio{
+    background-color: #FAFBFD;
+    padding-bottom: 20px;
+    
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 7%;
+}
+.image-container{
+    display: grid; 
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap:30px;
+   padding-top:100px;
+   background-color: #FAFBFD;
+   padding-left: 150px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.wordcontainer{
+    display:grid;
+    grid-template-columns: 400px 400px ;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    
+}
+.popular{
+    text-align: center;
+    padding-top: 50px;
+}
+#frequent{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom:15px;
+
+}
+#freq{
+    font-family: 'Nunito Sans', sans-serif;
+   
+}
+#miniHeader{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight:bolder;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+ .container9{
+    padding-top: 50px;
+    text-align: center;
+ }
+ #sub{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 10px;
+
+ }
+ #subwords{
+    padding-top: 10px;
+ }
+.formcontrol{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+    .input {
+    display: inline;
+    height: 35px;
+    border: 1px solid #ccc;
+    margin: 0;
+    font-size: 12px;
+    width: 400px;
+    padding-left:20px;
+    font-family: 'Nunito Sans', sans-serif; 
+    margin-right:-5px
+    }
+    .btn4 {
+        display: inline;
+        height: 35px;
+        background-color: #F79E0E;
+        border: none;
+        margin: 0;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        padding: 5px 20px 5px 20px;
+        font-family: 'Nunito Sans', sans-serif; 
+        
+        
+    }
+.container10{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20%;
+    gap: calc((100% - (35% + 60%))/2);
+}
+.downlink , a{
+    display: inline;
+    text-decoration: none;
+}
+footer{
+    background-image: url('Banner.png');
+    padding-top: 30px;
+    height: 250px;
+
+   
+}
+
+#del{
+    font-size: 30px;
+    font-weight: bold;
+    color:#F79E0E;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+
+}
+#loram{
+    color: white;
+    
+}
+.socials{
+    padding-top: 10px;
+}
+.left{
+    padding-left: 100px;
+}
+.bottomlink{
+    line-height: 5px;
+}
+.downlink,li,a {
+    line-height: 1.6em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+h3{
+    color:#F79E0E;
+    text-decoration: double;
+}
+
+
+
+@media only screen and (max-width: 768px){
+ul{    
+    display: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    padding-left: 20px;
+    margin:0;
+    max-width: 100%;
+}
+.container1{
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+}
+.say{
+    padding-right:20px;
+}
+header{
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo{
+    padding-left: 20px;
+
+}
+.nav-image{
+    height: 300px;
+    width:100%;
+}
+.asset2{
+  padding-top: 20px;
+
+}
+.third-asset{
+    max-width: 100%;
+}
+.asset3{
+    padding:0;
+    width: 100%
+}
+.mainSection{
+    display:grid;
+    grid-template-columns: 1fr;
+   padding-left:20px;
+   margin: 0;
+   width: 100%;
+
+}
+.content{
+    margin-top: 20px;
+}
+.asset4{
+    width: 100%;
+}
+#paymentImage{
+ padding-top:20px;
+ padding-left:20px;
+ padding-right: 20px;
+  margin:0;
+  max-width: 100%;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+   padding-left:20px;
+    margin:0;
+}
+.asset5{
+    max-width: 100%;
+}
+.container4-1{
+    width: 100%;
+    max-width: 100%;
+}
+.container4-2{
+    padding:0;
+}
+.container6{
+    padding: 0;
+    margin:0;
+    max-width: 100%;
+}
+.container9{
+    padding:0;
+}
+
+.container7{
+    display:flex;
+     flex-direction: column;
+     align-items: stretch;
+     padding: 0;
+     margin-top: 20px;
+     text-align: center;
+   
+    
+}
+.organic-fruits{
+    padding-bottom: 30px;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.portfolio{
+    margin:0;
+    padding-top: 20px;
+    max-width:100%;
+}
+.image{
+    width: 100%;
+    border-radius: 0;
+}
+.popular{
+    margin-top:20px;
+    padding :0;
+    max-width: 100%;
+}
+.wordcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+    max-width: 100%;
+}
+.input{
+    width: 100%;
+    margin-top: 20px;
+ 
+}
+.formcontrol{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+.btn-3{
+    max-width:100%;
+}
+.btn4{
+     margin-top: 20px;
+     width:100%
+
+}
+.container10{
+   display:flex;
+   flex-direction: column;
+   padding: 0;
+   margin:0;
+}
+.container9{
+    padding-top:20px;
+    margin:0;
+    max-width: 100%;
+}
+.downlink , a{
+    display: inline;
+    text-decoration: none;
+}
+footer{
+    background-image: url('Banner.png');
+    padding-top:20px;
+    padding-left: 20px;
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+
+   
+}
+
+#del{
+    font-size: 30px;
+    font-weight: bold;
+    color:#F79E0E;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+
+}
+#loram{
+    color: white;
+    
+}
+.socials{
+    padding-top: 10px;
+}
+.left{
+    padding: 0;
+}
+.bottomlink{
+    line-height: 5px;
+}
+.downlink,li,a {
+    line-height: 1.6em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+h3{
+    color:#F79E0E;
+    text-decoration: double;
+}
+*{
+    overflow-x:hidden;
+}
+.popular{
+    padding:0;
+}
+}
+
+@media only screen and (min-width:767px) and (max-width:991px){
+   ul{
+    display: none;
+   }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;  
+        padding-left: 20px;
+        margin:0;
+        max-width: 100%;
+    }
+    .container1{
+        padding: 0px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0;
+    }
+    .say{
+        padding-right:20px;
+    }
+    header{
+        height: 450px;
+        padding: 0;
+        margin: 0;
+        
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .logo{
+        padding-left: 20px;
+    
+    }
+    .nav-image{
+        height: 300px;
+        width:100%;
+    }
+    .asset2{
+      padding-top: 20px;
+    
+    }
+    .third-asset{
+        max-width: 100%;
+    }
+    .asset3{
+        padding:0;
+        width: 100%
+    }
+    .mainSection{
+        display:flex;
+       align-items: center;
+       justify-content: space-around;
+       padding-left:20px;
+       margin: 0;
+       width: 100%;
+    
+    }
+    .content{
+        margin-top: 20px;
+    }
+    .asset4{
+        width: 100%;
+    }
+    #paymentImage{
+     padding-top:20px;
+     padding-left:20px;
+     padding-right: 20px;
+      margin:0;
+      max-width: 100%;
+    }
+    .container4{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap:30px;
+       padding-left:20px;
+        margin:0;
+    }
+    .asset5{
+        width: 100%;
+    }
+    .container4-1{
+        width: 100%;
+        max-width: 100%;
+    }
+    .container4-2{
+        padding:0;
+    }
+    .container6{
+        padding: 0;
+        margin:0;
+        max-width: 100%;
+    }
+    .container9{
+        padding:0;
+    }
+    
+    .container7{
+        display:flex;
+         flex-direction: column;
+         align-items: stretch;
+         padding: 0;
+         margin-top: 20px;
+         text-align: center;
+       
+        
+    }
+    .organic-fruits{
+        padding-bottom: 30px;
+    }
+    .image-container{
+        display: flex;
+        align-items: center;
+        justify-content: spa;
+        margin: 0;
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    .portfolio{
+        margin:0;
+        padding-top: 20px;
+        max-width:100%;
+    }
+    .image{
+        width: 100%;
+        border-radius: 0;
+    }
+    .popular{
+        margin-top:20px;
+        padding :0;
+        max-width: 100%;
+    }
+    .wordcontainer{
+    display:grid;
+    grid-template-columns: 350px 350px ;
+    grid-gap: 10px;
+    justify-content: center;
+        padding-left:30px;
+        max-width: 100%;
+    }
+    .input{
+        width: 100%;
+        margin-top: 20px;
+     
+    }
+    .formcontrol{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0;
+    }
+    .btn-3{
+        max-width:100%;
+    }
+    .btn4{
+         margin-top: 20px;
+         width:100%
+    
+    }
+    .container10{
+        display: grid;
+        grid-template-columns: 30% 20% 20% 20%;
+        gap: calc((100% - (35% + 60%))/2);
+       
+       padding: 0;
+       margin:0;
+    }
+    .container9{
+        padding-top:20px;
+        margin:0;
+        max-width: 100%;
+    }
+    .downlink , a{
+        display: inline;
+        text-decoration: none;
+    }
+    footer{
+        background-image: url('Banner.png');
+        padding-top:20px;
+        padding-left: 20px;
+        height: 800px;
+        width: 100%;
+        margin-top: 20px;
+    
+       
+    }
+    
+    #del{
+        font-size: 30px;
+        font-weight: bold;
+        color:#F79E0E;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 5px;
+    
+    }
+    #loram{
+        color: white;
+        
+    }
+    .socials{
+        padding-top: 10px;
+    }
+    .left{
+        padding: 0;
+    }
+    .bottomlink{
+        line-height: 5px;
+    }
+    .downlink,li,a {
+        line-height: 1.6em;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    h3{
+        color:#F79E0E;
+        text-decoration: double;
+    }
+    *{
+        overflow-x:hidden;
+    }
+    .popular{
+        padding:0;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+
+
+
+
+
+
